@@ -1,13 +1,28 @@
 body {
-	background: #dddddd;
+	background: url(money-flying.jpg);
 	font-size: 32px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
 }
 #container {
 	text-align: center;
 	padding: 0;
-	width: 500px;
-	margin: 100px auto 0 auto;
-	background: #ffffff;
+	width: 700px;
+	margin: 200px auto 0 auto;
+	background: rgba(221,221,255,0.8);
+	border: 1px solid rgba(221,221,255,0.5);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	behavior: url(border-radius.htc);
+	border-radius: 10px;
+}
+#padding {
+	padding: 0;
+	margin: 50px 20px 50px 20px;
+}
+a {
+	text-decoration: none;
 }
 a:visited {	
 	color: #0000ff;
@@ -15,4 +30,8 @@ a:visited {
 #amount {
 	padding: 0;
 	margin: 50px auto 0 auto;
+	font-size: 40px;
+}
+#value {
+	display: inline;
 }
