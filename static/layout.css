@@ -1,0 +1,18 @@
+body {
+	background: #dddddd;
+	font-size: 32px;
+}
+#container {
+	text-align: center;
+	padding: 0;
+	width: 500px;
+	margin: 100px auto 0 auto;
+	background: #ffffff;
+}
+a:visited {	
+	color: #0000ff;
+}
+#amount {
+	padding: 0;
+	margin: 50px auto 0 auto;
+}
